@@ -104,6 +104,7 @@ export default function Home() {
               value={text.backgroundPosition} 
             >
             {[
+              'top',
               'left top',
               'left center',
               'left bottom',
