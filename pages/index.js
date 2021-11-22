@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Home() {
   const [text, setText] = useState({
-    text: 'hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog hotdog',
+    text: 'Text here...',
     backgroundSize: 'cover',
     backgroundPosition: 'top',
     fontSize: 12,
@@ -105,6 +105,8 @@ export default function Home() {
             >
             {[
               'top',
+              'center',
+              'bottom',
               'left top',
               'left center',
               'left bottom',
